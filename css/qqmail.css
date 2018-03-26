@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	height:100%;
+}
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+.container{
+	position:relative; 
+	width:100%;
+	text-align:left;
+	margin:0 auto;
+	min-height:100%; 
+}
+.header{
+	height:60px;
+	background-image:url(../img/top01.png);
+}
+.headerLeft{
+	margin-left:20%;
+	float:left;
+}
+.topLogo{
+	margin-left:20%;
+}
+.headerRight{
+	margin-right:20%;
+	float:right;
+	height:60px;
+}
+.headerRight ul{
+	position:relative;
+	margin-top:20px;
+	}
+.headerRight ul li{
+	display:inline;
+	list-style:none;
+	padding:0;
+}
+.headerRight ul li a{
+	text-decoration:none;
+	padding:0 5px 0 5px;
+	color:#FFF;
+}
+.content{
+	width:800px;
+	height:400px;
+	margin:auto;
+	margin-top:150px;
+}
+.contentLeft{
+	float:left;
+}
+.contentRight{
+	float:right;
+}
+/*正文左侧区域*/
+.contentLeft01{
+	height:230px;	
+}
+.backPhoto01{
+	float:left;
+	margin-left:40px;
+}
+.backText{
+	float:right;
+}
+.important{
+	margin-left:10px;
+}
+.important li{
+	font-size:10px;
+	color:#666;
+}
+.important li a{
+	text-decoration:none;
+}
+/*登陆框*/
+.contentRight{
+	background-color:#CCC;
+	width:360px;
+	border-radius:9px;
+}
+.contentRight h3{
+	text-align:center;
+}
+.loginWrap a{
+	text-decoration:none;
+}
+.loginWrap span{
+	font-size:9px;
+	color:#666;
+}
+.tableTd{
+	text-align:center;
+}
+.button{
+	width:80px;
+	background-color:#09C;
+	border-radius:8px;
+	color:#FFF;
+}
+.userHelp{
+	text-align:center;
+	padding:0;
+}
+.userHelp li{
+	list-style-type:none;
+	display:inline;
+}
+.userHelp li a{
+	text-decoration:none;
+	padding:0 10px 0 10px;
+}
+.footer{
+	width:100%;
+	position:absolute;
+	background-image:url(../img/top01.png);
+	height:80px;bottom:0px;
+	left:0px;
+}
+.footer01{
+	text-align:center
+}
+.footer01 ul{
+	padding:0;
+	padding-top:10px;
+}
+.footer01 ul li{
+	display:inline;
+	list-style-type:none;
+}
+.footer01 ul li a{
+	text-decoration:none;
+	color:#FFF;
+	padding:0 8px 0 8px;
+}
+.footer02{
+	text-align:center;
+}
+.footer02 span{
+	color:#FFF;
+}
